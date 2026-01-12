@@ -1,0 +1,22 @@
+{
+  "name": "aniyor-backend",
+  "version": "1.0.0",
+  "description": "Backend for Shopify product management (Aniyor)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  "start": "node package/index.js"
+},
+  "dependencies": {
+    "@shopify/shopify-api": "^11.12.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^7.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
